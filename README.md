@@ -5,12 +5,12 @@ My code built without error with cmake .. && make, and connected to GUI with ./E
 
 With both LASER and RADAR data, the px,py,vx,vy RMSE = [.0973,.0855,.4513,.4399], less than the requirement [.11, .11, 0.52, 0.52]. 
 
-[image1]: ./both.jpg "Both Lidar and Radar"
+[image1]: ./both.JPG "Both Lidar and Radar"
 
 With Lidar or Radar only, the route with RMSE are:
 
-[image1]: ./lidar_only.jpg "Lidar only"
-[image1]: ./radar_only.jpg "Radar only"
+[image1]: ./lidar_only.JPG "Lidar only"
+[image1]: ./radar_only.JPG "Radar only"
 
 Both Lidar only and Radar only generates higher error compared to taking both data. Lidar only case's accuracy is little better than radar only in this case.
 
