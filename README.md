@@ -5,7 +5,7 @@ My code built without error with cmake .. && make, and connected to GUI with ./E
 
 With both LASER and RADAR data, the px,py,vx,vy RMSE = [.0973,.0855,.4513,.4399], less than the requirement [.11, .11, 0.52, 0.52]. 
 
-[image1]: ./both.JPG "Both Lidar and Radar"
+[image1]: https://github.com/zoespot/CarND-Extended-Kalman-Filter-Project/blob/master/both.JPG "Both Lidar and Radar"
 
 With Lidar or Radar only, the route with RMSE are:
 
